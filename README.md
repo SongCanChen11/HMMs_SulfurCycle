@@ -1,9 +1,9 @@
-This custom script `hmmsearch.sh` aims to retrieve sulfur-cycling proteins from the GTDB genome database (https://gtdb.ecogenomic.org/) using hidden markov models (HMMs). The HMMs for sulfur-cycling proteins (n = 110) are compiled in the zipped file named `HMMs.zip`. The description for each HMM is detailed in the `hmm_info.xlsx`.  A subset of sequences (~30 M; ‘GTDB_r95_demo.faa’) from the full GTDB r95 database (~40 G) was used as a demo dataset. 
+This custom script `hmmsearch.sh` aims to retrieve sulfur-cycling proteins from the GTDB genome database (https://gtdb.ecogenomic.org/) using hidden markov models (HMMs). The HMMs for sulfur-cycling proteins (n = 110) are compiled in the zipped file named `HMMs.zip`. The description for each HMM is detailed in the `hmm_info.xlsx`.  A subset of sequences (~30 M unzipped; `GTDB_r95_demo.faa.gz`) from the full GTDB r95 database (~40 G) was used as a demo dataset. 
 
 
 # System requirement
 ## Hardware requirements
-`hmmsearch.sh` script requires a standard computer with enough RAM and at least five cores.
+The `hmmsearch.sh` script requires a standard computer with >4G RAM and >5 CPUs.
 
 ## Software requirements
 ### OS Requirements
