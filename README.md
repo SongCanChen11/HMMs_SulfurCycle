@@ -30,7 +30,7 @@ The execution of the script on the Demo dataset (GTDB_r95_demo.faa) takes ~30 mi
 unzip HMMs.zip
 gunzip GTDB_r95_demo.faa.gz
 mkdir Res
-source 03_hmmsearch.sh &>/dev/null &
+source hmmsearch.sh &>/dev/null &
 ```
 
 # License
