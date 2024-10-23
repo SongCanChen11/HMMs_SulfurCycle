@@ -25,7 +25,7 @@ conda install hmmer
 
 
 # Run the Demo
-The execution of the script on the Demo dataset (GTDB_r95_demo.faa) takes ~30 min with 5 threads
+The execution of the script on the Demo dataset (GTDB_r95_demo.faa) takes ~30 min on computer with 5 CPUs. The script will generated tabulated output for each sulfur-cycling gene in the Res directory. To run `hmmsearch.sh` on the full GTDB database, the `GTDB_r95_demo.faa` in the script should be replaced with the path to the dataset download from GTDB (https://gtdb.ecogenomic.org/).  
 ```
 unzip HMMs.zip
 gunzip GTDB_r95_demo.faa.gz
